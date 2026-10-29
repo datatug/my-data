@@ -1,0 +1,4 @@
+parameters (
+  @projectId string required
+)
+from spaces/{SneatUserPersonalSpaceID}/ext/datatug/projects/{projectId}/queries

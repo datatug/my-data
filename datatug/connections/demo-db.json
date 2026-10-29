@@ -1,0 +1,11 @@
+{
+  "format": "datatug-demo-connections/v1",
+  "connections": [
+    {
+      "id": "datatug",
+      "title": "My DataTug data",
+      "storage": "firestore",
+      "source": "sneat-eur3-1"
+    }
+  ]
+}

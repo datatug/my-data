@@ -1,0 +1,8 @@
+{
+  "createdAt": "2026-10-29T16:00:00Z",
+  "id": "my-user-record",
+  "title": "My user record",
+  "type": "TugQL",
+  "connectionId": "datatug",
+  "purpose": "Your Sneat user document, read by its key."
+}

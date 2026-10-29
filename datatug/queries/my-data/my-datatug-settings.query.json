@@ -1,0 +1,8 @@
+{
+  "createdAt": "2026-10-29T16:00:00Z",
+  "id": "my-datatug-settings",
+  "title": "My DataTug settings",
+  "type": "TugQL",
+  "connectionId": "datatug",
+  "purpose": "The DataTug extension document of your user: your project index."
+}

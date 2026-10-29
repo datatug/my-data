@@ -1,0 +1,8 @@
+{
+  "createdAt": "2026-10-29T16:00:00Z",
+  "id": "project-queries",
+  "title": "Queries of a project",
+  "type": "TugQL",
+  "connectionId": "datatug",
+  "purpose": "The saved queries of one of your projects; pick the project id from \"My projects\"."
+}

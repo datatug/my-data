@@ -1,0 +1,2 @@
+from spaces
+where __key__ = @SneatUserPersonalSpaceID

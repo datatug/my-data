@@ -1,0 +1,2 @@
+from users
+where __key__ = @SneatUserID

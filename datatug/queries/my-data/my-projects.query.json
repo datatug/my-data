@@ -1,0 +1,8 @@
+{
+  "createdAt": "2026-10-29T16:00:00Z",
+  "id": "my-projects",
+  "title": "My projects",
+  "type": "TugQL",
+  "connectionId": "datatug",
+  "purpose": "The DataTug projects kept in your personal space, by title."
+}
