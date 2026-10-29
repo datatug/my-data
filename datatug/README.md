@@ -24,6 +24,8 @@ from spaces/{SneatUserPersonalSpaceID}/ext/datatug/projects
 order by title asc
 ```
 
+"Queries of a project" also asks for a `projectId`: take it from the `__key__` column of "My projects".
+
 Open it in the DataTug web app and sign in to run the queries. DataTug Core and the CLI accept the
 project in `datatug validate` but refuse to run these queries, because only the web app binds the
 context variables.
