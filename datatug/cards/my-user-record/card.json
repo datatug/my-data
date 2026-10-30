@@ -1,0 +1,13 @@
+{
+  "id": "my-user-record",
+  "title": "My user record",
+  "description": "Your Sneat user document.",
+  "widget": {
+    "name": "SQL",
+    "data": {
+      "sql": {
+        "queryId": "my-data/my-user-record"
+      }
+    }
+  }
+}

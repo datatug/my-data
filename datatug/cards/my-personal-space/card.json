@@ -1,0 +1,13 @@
+{
+  "id": "my-personal-space",
+  "title": "My personal space",
+  "description": "Your personal space document.",
+  "widget": {
+    "name": "SQL",
+    "data": {
+      "sql": {
+        "queryId": "my-data/my-personal-space"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "firestore-project",
+  "title": "DataTug project at Cloud",
+  "parameters": [
+    {
+      "id": "projectId",
+      "type": "string",
+      "title": "Project ID",
+      "isRequired": true
+    }
+  ],
+  "requiredParams": [
+    [
+      "projectId"
+    ]
+  ],
+  "rows": [
+    {
+      "cards": [
+        {
+          "id": "project-record",
+          "title": "Project",
+          "cols": 12,
+          "ref": {
+            "cardId": "project-record",
+            "parameters": [
+              {
+                "id": "projectId",
+                "boardParameterId": "projectId"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "cards": [
+        {
+          "id": "project-queries",
+          "title": "Queries",
+          "cols": 6,
+          "ref": {
+            "cardId": "project-queries",
+            "parameters": [
+              {
+                "id": "projectId",
+                "boardParameterId": "projectId"
+              }
+            ]
+          }
+        },
+        {
+          "id": "project-boards",
+          "title": "Boards",
+          "cols": 6,
+          "ref": {
+            "cardId": "project-boards",
+            "parameters": [
+              {
+                "id": "projectId",
+                "boardParameterId": "projectId"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

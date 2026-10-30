@@ -1,0 +1,13 @@
+{
+  "id": "my-datatug-settings",
+  "title": "My DataTug settings",
+  "description": "Your DataTug settings document.",
+  "widget": {
+    "name": "SQL",
+    "data": {
+      "sql": {
+        "queryId": "my-data/my-datatug-settings"
+      }
+    }
+  }
+}

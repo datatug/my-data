@@ -1,0 +1,12 @@
+# INGR.io | demo_projects/$default_view: $ID:string, title:string, storage:string, description:string
+"datatug-demo-project@datatug@demo-project-1"
+"DataTug public demo"
+"github.com"
+"Browse the project and saved Chinook SQL examples."
+#-
+"my-data@datatug"
+"My DataTug Data"
+"github.com"
+"View your DataTug data with DataTug."
+#-
+# 2 records

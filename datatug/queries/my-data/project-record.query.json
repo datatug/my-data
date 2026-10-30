@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-10-30T14:00:00Z",
+  "id": "project-record",
+  "title": "Project record",
+  "type": "TugQL",
+  "connectionId": "datatug",
+  "purpose": "One project in your personal space, read by its key.",
+  "parameters": [
+    {
+      "id": "projectId",
+      "type": "string",
+      "title": "Project ID",
+      "isRequired": true
+    }
+  ]
+}

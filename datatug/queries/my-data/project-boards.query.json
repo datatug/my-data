@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-10-30T14:00:00Z",
+  "id": "project-boards",
+  "title": "Boards of a project",
+  "type": "TugQL",
+  "connectionId": "datatug",
+  "purpose": "The boards of one project in your personal space.",
+  "parameters": [
+    {
+      "id": "projectId",
+      "type": "string",
+      "title": "Project ID",
+      "isRequired": true
+    }
+  ]
+}
