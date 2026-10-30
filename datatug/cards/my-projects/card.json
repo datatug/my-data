@@ -1,0 +1,13 @@
+{
+  "id": "my-projects",
+  "title": "My projects",
+  "description": "The projects in your personal space.",
+  "widget": {
+    "name": "SQL",
+    "data": {
+      "sql": {
+        "queryId": "my-data/my-projects"
+      }
+    }
+  }
+}

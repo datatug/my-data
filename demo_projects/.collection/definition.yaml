@@ -1,0 +1,20 @@
+titles:
+  en: Demo projects
+# Public DataTug projects anyone can explore. Exported to
+# $ingitdb/demo_projects/demo_projects.ingr so a browser can fetch the whole collection as one file.
+record_file:
+  name: "{key}.json"
+  type: "map[string]any"
+  format: json
+columns:
+  title:
+    type: string
+    required: true
+  storage:
+    type: string
+    required: true
+  description:
+    type: string
+    required: true
+columns_order: [title, storage, description]
+default_view: {}

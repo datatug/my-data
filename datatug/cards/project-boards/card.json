@@ -1,0 +1,27 @@
+{
+  "id": "project-boards",
+  "title": "Boards",
+  "description": "This project's boards.",
+  "parameters": [
+    {
+      "id": "projectId",
+      "type": "string",
+      "title": "Project ID",
+      "isRequired": true
+    }
+  ],
+  "widget": {
+    "name": "SQL",
+    "data": {
+      "sql": {
+        "queryId": "my-data/project-boards",
+        "parameters": [
+          {
+            "id": "projectId",
+            "boardParameterId": "projectId"
+          }
+        ]
+      }
+    }
+  }
+}

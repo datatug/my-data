@@ -1,0 +1,20 @@
+# The public demo projects, read by the DataTug browser straight from GitHub:
+# this repository's root is a small inGitDB database. Queries name this
+# descriptor in federation.ingitdbSources.
+format: ovdb-manifest/draft-1
+id: public-projects
+title: Demo projects
+database: {id: public-projects, schema_mode: strict}
+storage:
+  engine: ingitdb
+  github:
+    repository: datatug/my-data
+    revision: 2fb9cc063678b67dbd5303140cb54828632ad119
+    cacheControl: public, max-age=31536000, immutable
+schemas:
+  collections:
+    demo_projects:
+      fields:
+        title: {type: string}
+        storage: {type: string}
+        description: {type: string}

@@ -1,0 +1,13 @@
+{
+  "id": "demo-projects",
+  "title": "Demo projects",
+  "description": "Public projects you can explore.",
+  "widget": {
+    "name": "SQL",
+    "data": {
+      "sql": {
+        "queryId": "my-data/demo-projects"
+      }
+    }
+  }
+}

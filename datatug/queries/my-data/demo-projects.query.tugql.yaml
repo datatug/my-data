@@ -1,0 +1,11 @@
+# Public demo projects from the inGitDB record set in this repository.
+from:
+  database: public-projects
+  name: demo_projects
+  alias: d
+columns:
+  - {field: id, source: d, as: id}
+  - {field: title, source: d, as: title}
+  - {field: storage, source: d, as: storage}
+  - {field: description, source: d, as: description}
+orderBy: [{field: title, source: d}]

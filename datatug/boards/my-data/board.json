@@ -1,0 +1,58 @@
+{
+  "id": "my-data",
+  "title": "My DataTug Data",
+  "rows": [
+    {
+      "cards": [
+        {
+          "id": "my-user-record",
+          "title": "My user record",
+          "cols": 12,
+          "ref": {
+            "cardId": "my-user-record"
+          }
+        }
+      ]
+    },
+    {
+      "cards": [
+        {
+          "id": "my-projects",
+          "title": "My projects",
+          "cols": 6,
+          "ref": {
+            "cardId": "my-projects"
+          }
+        },
+        {
+          "id": "demo-projects",
+          "title": "Demo projects",
+          "cols": 6,
+          "ref": {
+            "cardId": "demo-projects"
+          }
+        }
+      ]
+    },
+    {
+      "cards": [
+        {
+          "id": "my-personal-space",
+          "title": "My personal space",
+          "cols": 6,
+          "ref": {
+            "cardId": "my-personal-space"
+          }
+        },
+        {
+          "id": "my-datatug-settings",
+          "title": "My DataTug settings",
+          "cols": 6,
+          "ref": {
+            "cardId": "my-datatug-settings"
+          }
+        }
+      ]
+    }
+  ]
+}
