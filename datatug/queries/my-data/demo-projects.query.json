@@ -1,0 +1,20 @@
+{
+  "createdAt": "2026-10-30T14:00:00Z",
+  "id": "demo-projects",
+  "title": "Demo projects",
+  "type": "TugQL",
+  "purpose": "Public projects you can explore, from an inGitDB record set on GitHub.",
+  "federation": {
+    "ovdbBaseUrl": "https://cloud.openvaultdb.com",
+    "ingitdbSources": [{ "database": "public-projects", "descriptor": "https://raw.githubusercontent.com/datatug/my-data/main/datatug/fixtures/ovdb/demo-projects.ovdb.yaml" }],
+    "tables": [
+      { "database": "public-projects", "name": "demo_projects", "fields": ["id", "title", "storage", "description"] }
+    ]
+  },
+  "recordsets": [{ "columns": [
+    { "name": "id", "type": "string" },
+    { "name": "title", "type": "string" },
+    { "name": "storage", "type": "string" },
+    { "name": "description", "type": "string" }
+  ] }]
+}
