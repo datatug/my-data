@@ -1,0 +1,11 @@
+from:
+  database: public-projects
+  name: demo_projects
+  alias: t
+where: {left: {field: id, source: t}, op: '==', right: {param: projectId}}
+columns:
+  - {field: id, source: t, as: id}
+  - {field: title, source: t, as: title}
+  - {field: storage, source: t, as: storage}
+  - {field: description, source: t, as: description}
+orderBy: [{field: title, source: t}]

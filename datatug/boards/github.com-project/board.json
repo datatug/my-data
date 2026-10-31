@@ -1,0 +1,69 @@
+{
+  "id": "github.com-project",
+  "title": "DataTug project at GitHub",
+  "parameters": [
+    {
+      "id": "projectId",
+      "type": "string",
+      "title": "Project ID",
+      "isRequired": true
+    }
+  ],
+  "requiredParams": [
+    [
+      "projectId"
+    ]
+  ],
+  "rows": [
+    {
+      "cards": [
+        {
+          "id": "github-project-record",
+          "title": "Project",
+          "cols": 12,
+          "ref": {
+            "cardId": "github-project-record",
+            "parameters": [
+              {
+                "id": "projectId",
+                "boardParameterId": "projectId"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "cards": [
+        {
+          "id": "github-project-queries",
+          "title": "Queries",
+          "cols": 6,
+          "ref": {
+            "cardId": "github-project-queries",
+            "parameters": [
+              {
+                "id": "projectId",
+                "boardParameterId": "projectId"
+              }
+            ]
+          }
+        },
+        {
+          "id": "github-project-boards",
+          "title": "Boards",
+          "cols": 6,
+          "ref": {
+            "cardId": "github-project-boards",
+            "parameters": [
+              {
+                "id": "projectId",
+                "boardParameterId": "projectId"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,16 @@
     "name": "SQL",
     "data": {
       "sql": {
-        "queryId": "my-data/demo-projects"
+        "queryId": "my-data/demo-projects",
+        "rowLink": {
+          "boardId": "{storage}-project",
+          "parameters": [
+            {
+              "id": "projectId",
+              "column": "id"
+            }
+          ]
+        }
       }
     }
   }

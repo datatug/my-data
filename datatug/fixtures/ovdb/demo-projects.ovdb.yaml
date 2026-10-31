@@ -9,7 +9,7 @@ storage:
   engine: ingitdb
   github:
     repository: datatug/my-data
-    revision: 2fb9cc063678b67dbd5303140cb54828632ad119
+    revision: 66a3226cb740fbdd8b8fc03fca725f9dccf3ece2
     cacheControl: public, max-age=31536000, immutable
 schemas:
   collections:
@@ -18,3 +18,13 @@ schemas:
         title: {type: string}
         storage: {type: string}
         description: {type: string}
+    demo_project_queries:
+      fields:
+        project: {type: string}
+        query: {type: string}
+        title: {type: string}
+    demo_project_boards:
+      fields:
+        project: {type: string}
+        board: {type: string}
+        title: {type: string}

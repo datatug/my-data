@@ -1,0 +1,32 @@
+# INGR.io | demo_project_boards/$default_view: $ID:string, project:string, board:string, title:string
+"datatug-demo-project@datatug@demo-project-1:board1"
+"datatug-demo-project@datatug@demo-project-1"
+"board1"
+"Chinook customer insights"
+#-
+"datatug-demo-project@datatug@demo-project-1:northwind"
+"datatug-demo-project@datatug@demo-project-1"
+"northwind"
+"Northwind operations"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping"
+"Shipping · milestones, measured timing and readiness"
+#-
+"datatug-demo-project@datatug@demo-project-1:showcase"
+"datatug-demo-project@datatug@demo-project-1"
+"showcase"
+"Orders in motion · DataTug visual showcase"
+#-
+"my-data@datatug:firestore-project"
+"my-data@datatug"
+"firestore-project"
+"DataTug project at Cloud"
+#-
+"my-data@datatug:my-data"
+"my-data@datatug"
+"my-data"
+"My DataTug Data"
+#-
+# 6 records

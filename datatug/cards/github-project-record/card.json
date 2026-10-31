@@ -1,0 +1,27 @@
+{
+  "id": "github-project-record",
+  "title": "Project",
+  "description": "This project's record.",
+  "parameters": [
+    {
+      "id": "projectId",
+      "type": "string",
+      "title": "Project ID",
+      "isRequired": true
+    }
+  ],
+  "widget": {
+    "name": "SQL",
+    "data": {
+      "sql": {
+        "queryId": "my-data/demo-project-record",
+        "parameters": [
+          {
+            "id": "projectId",
+            "boardParameterId": "projectId"
+          }
+        ]
+      }
+    }
+  }
+}
