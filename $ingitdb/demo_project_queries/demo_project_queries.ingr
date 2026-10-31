@@ -1,0 +1,377 @@
+# INGR.io | demo_project_queries/$default_view: $ID:string, project:string, query:string, title:string
+"datatug-demo-project@datatug@demo-project-1:customers_customer-invoices"
+"datatug-demo-project@datatug@demo-project-1"
+"customers/customer-invoices"
+"Customer invoices"
+#-
+"datatug-demo-project@datatug@demo-project-1:customers_customer-purchases-by-genre"
+"datatug-demo-project@datatug@demo-project-1"
+"customers/customer-purchases-by-genre"
+"Customer purchases by genre"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_adventureworks-current-department-roster"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/adventureworks-current-department-roster"
+"Current Department Roster"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_adventureworks-territory-year-sales"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/adventureworks-territory-year-sales"
+"Territory Year Sales"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_adventureworks-top-product-categories"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/adventureworks-top-product-categories"
+"Top Product Categories"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-billing-browser-sqlite"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-billing-browser-sqlite"
+"Top Customer Spend"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-billing-server"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-billing-server"
+"Chinook customer billing · read-only server"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-customer-count-cte"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-customer-count-cte"
+"Chinook Customer Counts CTE"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-customer-count-graph"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-customer-count-graph"
+"Chinook Customer Counts Graph"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-customer-country-counts-server"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-customer-country-counts-server"
+"Chinook customer records by country"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-customer-genre-mix"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-customer-genre-mix"
+"Customer Genre Mix"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-customer-inventory"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-customer-inventory"
+"Chinook Customer Inventory"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-customer-invoice-count"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-customer-invoice-count"
+"Chinook Customer Invoice Count"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-customer-invoice-join"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-customer-invoice-join"
+"Chinook Customer Invoices"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-invoice-author"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-invoice-author"
+"Chinook Invoice Author"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-invoice-compare"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-invoice-compare"
+"Chinook Invoice Comparison"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-playlist-composition"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-playlist-composition"
+"Playlist Composition"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-postgresql-artist-tracks"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-postgresql-artist-tracks"
+"Chinook PostgreSQL artists by track count"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-postgresql-genres"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-postgresql-genres"
+"Compare Chinook genres in PostgreSQL and SQLite"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_chinook-top-customer-spend"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/chinook-top-customer-spend"
+"Top Customer Spend"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_customer-country-comparison-server"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/customer-country-comparison-server"
+"Northwind + Chinook · customer records by shared country"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_employees-department-headcount"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/employees-department-headcount"
+"Department Headcount"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_employees-department-managers"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/employees-department-managers"
+"Department Managers"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_employees-top-current-salaries"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/employees-top-current-salaries"
+"Top Current Salaries"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-country-counts-browser-sqlite"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-country-counts-browser-sqlite"
+"Northwind SQLite orders by shipping country"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-country-counts-server"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-country-counts-server"
+"Northwind orders by shipping country · read-only server"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-customer-country-counts-server"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-customer-country-counts-server"
+"Northwind customer records by country"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-orders-browser-sqlite"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-orders-browser-sqlite"
+"Northwind Orders · verified full projection"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-orders-full-sqlite"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-orders-full-sqlite"
+"Northwind Orders · verified full projection"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-orders-server"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-orders-server"
+"Northwind Orders · read-only server"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-reorder-watchlist"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-reorder-watchlist"
+"Reorder Watchlist"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-shipping-country-count-postgresql"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-shipping-country-count-postgresql"
+"Northwind PostgreSQL orders by shipping country"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-shipping-country-count-sqlite"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-shipping-country-count-sqlite"
+"Northwind SQLite orders by shipping country"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-shipping-country-race"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-shipping-country-race"
+"Northwind shipping country order timeline"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-territory-coverage"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-territory-coverage"
+"Territory Coverage"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_northwind-top-customer-orders"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/northwind-top-customer-orders"
+"Top Customer Orders"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_pubs-author-catalog"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/pubs-author-catalog"
+"Author Catalog"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_pubs-royalty-steps"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/pubs-royalty-steps"
+"Royalty Steps"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_pubs-store-title-sales"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/pubs-store-title-sales"
+"Store Title Sales"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_sakila-actor-filmographies"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/sakila-actor-filmographies"
+"Actor Filmographies"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_sakila-category-revenue"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/sakila-category-revenue"
+"Category Revenue"
+#-
+"datatug-demo-project@datatug@demo-project-1:demodb_sakila-overdue-open-rentals"
+"datatug-demo-project@datatug@demo-project-1"
+"demodb/sakila-overdue-open-rentals"
+"Overdue Open Rentals"
+#-
+"datatug-demo-project@datatug@demo-project-1:hosted_chinook-customer-preview"
+"datatug-demo-project@datatug@demo-project-1"
+"hosted/chinook-customer-preview"
+"Hosted Chinook customers"
+#-
+"datatug-demo-project@datatug@demo-project-1:invoices_invoice-lines"
+"datatug-demo-project@datatug@demo-project-1"
+"invoices/invoice-lines"
+"Invoice lines"
+#-
+"datatug-demo-project@datatug@demo-project-1:northwind_customer-by-id"
+"datatug-demo-project@datatug@demo-project-1"
+"northwind/customer-by-id"
+"Northwind customer by ID"
+#-
+"datatug-demo-project@datatug@demo-project-1:northwind_orders-by-customer"
+"datatug-demo-project@datatug@demo-project-1"
+"northwind/orders-by-customer"
+"Northwind orders by customer"
+#-
+"datatug-demo-project@datatug@demo-project-1:reference_chinook-customers-per-million"
+"datatug-demo-project@datatug@demo-project-1"
+"reference/chinook-customers-per-million"
+"Chinook customers per million people"
+#-
+"datatug-demo-project@datatug@demo-project-1:reference_countries-currency-population"
+"datatug-demo-project@datatug@demo-project-1"
+"reference/countries-currency-population"
+"Countries: currency and population"
+#-
+"datatug-demo-project@datatug@demo-project-1:reference_country-facts"
+"datatug-demo-project@datatug@demo-project-1"
+"reference/country-facts"
+"Country facts (currency by country name)"
+#-
+"datatug-demo-project@datatug@demo-project-1:reference_currency-rate-on-date"
+"datatug-demo-project@datatug@demo-project-1"
+"reference/currency-rate-on-date"
+"USD amount in the customer's currency on a date"
+#-
+"datatug-demo-project@datatug@demo-project-1:reference_currency-rate"
+"datatug-demo-project@datatug@demo-project-1"
+"reference/currency-rate"
+"Exchange rate for the customer's currency"
+#-
+"datatug-demo-project@datatug@demo-project-1:reference_northwind-customer-countries"
+"datatug-demo-project@datatug@demo-project-1"
+"reference/northwind-customer-countries"
+"Northwind customers by country, with currency and population"
+#-
+"datatug-demo-project@datatug@demo-project-1:sales_chinook-sales-per-capita"
+"datatug-demo-project@datatug@demo-project-1"
+"sales/chinook-sales-per-capita"
+"Chinook sales per capita by country"
+#-
+"datatug-demo-project@datatug@demo-project-1:sales_latest-100-invoices-country-lookup"
+"datatug-demo-project@datatug@demo-project-1"
+"sales/latest-100-invoices-country-lookup"
+"Latest invoices with country HTTP lookup"
+#-
+"datatug-demo-project@datatug@demo-project-1:sales_latest-100-sales-http-lookup"
+"datatug-demo-project@datatug@demo-project-1"
+"sales/latest-100-sales-http-lookup"
+"Sales per capita with HTTP country lookup"
+#-
+"datatug-demo-project@datatug@demo-project-1:sales_latest-100-sales-per-capita"
+"datatug-demo-project@datatug@demo-project-1"
+"sales/latest-100-sales-per-capita"
+"Sales per capita from latest 100 invoices"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_assignment-outcome"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/assignment-outcome"
+"Latest accepted carrier assignment"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_carrier-status"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/carrier-status"
+"Carrier booking for a Shipping request (synthetic carrier sandbox)"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_current-route"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/current-route"
+"Effective unambiguous route"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_events-comparison"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/events-comparison"
+"Request processing comparison"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_events"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/events"
+"Request processing milestones"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_historical-route"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/historical-route"
+"Historical route diagnosis"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_partner-enabled"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/partner-enabled"
+"Enabled configured partner"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_readiness-comparison"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/readiness-comparison"
+"Readiness comparison per attempt and under current configuration"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_readiness"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/readiness"
+"Readiness per attempt and under current configuration"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_request-receipt"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/request-receipt"
+"Matching receiver receipt"
+#-
+"datatug-demo-project@datatug@demo-project-1:shipping_timings"
+"datatug-demo-project@datatug@demo-project-1"
+"shipping/timings"
+"Measured adjacent stage timings"
+#-
+"my-data@datatug:my-data_demo-projects"
+"my-data@datatug"
+"my-data/demo-projects"
+"Demo projects"
+#-
+"my-data@datatug:my-data_my-datatug-settings"
+"my-data@datatug"
+"my-data/my-datatug-settings"
+"My DataTug settings"
+#-
+"my-data@datatug:my-data_my-personal-space"
+"my-data@datatug"
+"my-data/my-personal-space"
+"My personal space"
+#-
+"my-data@datatug:my-data_my-projects"
+"my-data@datatug"
+"my-data/my-projects"
+"My projects"
+#-
+"my-data@datatug:my-data_my-user-record"
+"my-data@datatug"
+"my-data/my-user-record"
+"My user record"
+#-
+"my-data@datatug:my-data_project-boards"
+"my-data@datatug"
+"my-data/project-boards"
+"Boards of a project"
+#-
+"my-data@datatug:my-data_project-queries"
+"my-data@datatug"
+"my-data/project-queries"
+"Queries of a project"
+#-
+"my-data@datatug:my-data_project-record"
+"my-data@datatug"
+"my-data/project-record"
+"Project record"
+#-
+# 75 records

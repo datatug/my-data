@@ -1,0 +1,18 @@
+titles:
+  en: Demo project boards
+record_file:
+  name: "{key}.json"
+  type: "map[string]any"
+  format: json
+columns:
+  project:
+    type: string
+    required: true
+  board:
+    type: string
+    required: true
+  title:
+    type: string
+    required: true
+columns_order: [project, board, title]
+default_view: {}
