@@ -36,8 +36,11 @@ Spec: [my-data-project](https://github.com/datatug/backstage/tree/main/spec/feat
 
 - **My DataTug Data** (`my-data`): your user record, your projects, the demo projects, your personal space and your settings.
 - **DataTug project at Cloud** (`firestore-project`): one of your projects, by `projectId`: its record, queries and boards.
+- **DataTug project at GitHub** (`github.com-project`): one demo project, by `projectId`: its record, queries and boards.
 
-Each row of **My projects** opens the board for that project's `storage`, passing its `projectId`.
+Each row of **My projects** and **Demo projects** opens the board for that project's `storage`, passing its `projectId`.
 
 The demo projects come from the small inGitDB record set at this repository's root
 (`demo_projects`), read straight from GitHub through `fixtures/ovdb/demo-projects.ovdb.yaml`.
+
+The lists of each demo project's queries and boards (`demo_project_queries`, `demo_project_boards`) are copies, so update them when a demo project changes.

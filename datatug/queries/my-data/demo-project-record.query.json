@@ -1,0 +1,58 @@
+{
+  "createdAt": "2026-10-31T14:00:00Z",
+  "id": "demo-project-record",
+  "title": "Demo project",
+  "type": "TugQL",
+  "purpose": "One demo project, by its ID.",
+  "parameters": [
+    {
+      "id": "projectId",
+      "type": "string",
+      "title": "Project ID",
+      "isRequired": true
+    }
+  ],
+  "federation": {
+    "ovdbBaseUrl": "https://cloud.openvaultdb.com",
+    "ingitdbSources": [
+      {
+        "database": "public-projects",
+        "descriptor": "https://raw.githubusercontent.com/datatug/my-data/main/datatug/fixtures/ovdb/demo-projects.ovdb.yaml"
+      }
+    ],
+    "tables": [
+      {
+        "database": "public-projects",
+        "name": "demo_projects",
+        "fields": [
+          "description",
+          "id",
+          "storage",
+          "title"
+        ]
+      }
+    ]
+  },
+  "recordsets": [
+    {
+      "columns": [
+        {
+          "name": "id",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "storage",
+          "type": "string"
+        },
+        {
+          "name": "description",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

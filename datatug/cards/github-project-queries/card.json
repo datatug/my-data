@@ -1,0 +1,27 @@
+{
+  "id": "github-project-queries",
+  "title": "Queries",
+  "description": "This project's saved queries.",
+  "parameters": [
+    {
+      "id": "projectId",
+      "type": "string",
+      "title": "Project ID",
+      "isRequired": true
+    }
+  ],
+  "widget": {
+    "name": "SQL",
+    "data": {
+      "sql": {
+        "queryId": "my-data/demo-project-queries",
+        "parameters": [
+          {
+            "id": "projectId",
+            "boardParameterId": "projectId"
+          }
+        ]
+      }
+    }
+  }
+}
