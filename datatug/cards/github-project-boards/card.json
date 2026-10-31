@@ -20,7 +20,12 @@
             "id": "projectId",
             "boardParameterId": "projectId"
           }
-        ]
+        ],
+        "rowLink": {
+          "boardId": "{board}",
+          "projectId": "{project}",
+          "storeId": "github.com"
+        }
       }
     }
   }

@@ -24,9 +24,14 @@
 "firestore-project"
 "DataTug project at Cloud"
 #-
+"my-data@datatug:github.com-project"
+"my-data@datatug"
+"github.com-project"
+"DataTug project at GitHub"
+#-
 "my-data@datatug:my-data"
 "my-data@datatug"
 "my-data"
 "My DataTug Data"
 #-
-# 6 records
+# 7 records

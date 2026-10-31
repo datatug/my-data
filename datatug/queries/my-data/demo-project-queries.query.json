@@ -43,6 +43,10 @@
         {
           "name": "title",
           "type": "string"
+        },
+        {
+          "name": "project",
+          "type": "string"
         }
       ]
     }
