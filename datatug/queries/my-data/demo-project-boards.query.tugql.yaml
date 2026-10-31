@@ -6,4 +6,5 @@ where: {left: {field: project, source: t}, op: '==', right: {param: projectId}}
 columns:
   - {field: board, source: t, as: board}
   - {field: title, source: t, as: title}
+  - {field: project, source: t, as: project}
 orderBy: [{field: title, source: t}]

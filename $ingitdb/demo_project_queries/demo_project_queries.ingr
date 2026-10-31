@@ -334,6 +334,21 @@
 "shipping/timings"
 "Measured adjacent stage timings"
 #-
+"my-data@datatug:my-data_demo-project-boards"
+"my-data@datatug"
+"my-data/demo-project-boards"
+"Boards of a demo project"
+#-
+"my-data@datatug:my-data_demo-project-queries"
+"my-data@datatug"
+"my-data/demo-project-queries"
+"Queries of a demo project"
+#-
+"my-data@datatug:my-data_demo-project-record"
+"my-data@datatug"
+"my-data/demo-project-record"
+"Demo project"
+#-
 "my-data@datatug:my-data_demo-projects"
 "my-data@datatug"
 "my-data/demo-projects"
@@ -374,4 +389,4 @@
 "my-data/project-record"
 "Project record"
 #-
-# 75 records
+# 78 records
